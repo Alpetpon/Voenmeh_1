@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Number Generator</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <div class="container">
+        <div class="randomizer">
+            <h1>Random Number Generator</h1>
+            <form method="POST">
+                <button type="submit">Generate Random Number</button>
+            </form>
+            {% if number is not none %}
+                <p class="number">{{ number }}</p>
+            {% endif %}
+        </div>
+    </div>
+</body>
+</html>
