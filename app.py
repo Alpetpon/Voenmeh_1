@@ -1,14 +1,16 @@
-from flask import Flask, render_template, request
+from flask import Flask, render_template, request, jsonify
 import random
 
 app = Flask(__name__)
 
-@app.route('/', methods=['GET', 'POST'])
+@app.route('/', methods=['GET'])
 def index():
-    number = None
-    if request.method == 'POST':
-        number = random.randint(1, 100)
-    return render_template('index.html', number=number)
+    return render_template('index.html')
+
+@app.route('/generate', methods=['POST'])
+def generate():
+    number = random.randint(1, 100)
+    return jsonify(number=number)
 
 if __name__ == '__main__':
     app.run(debug=True)

@@ -5,19 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Random Number Generator</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
-
 </head>
 <body>
     <div class="container">
         <div class="randomizer">
-            <h1>Random Number Generator</h1>
-            <form method="POST">
-                <button type="submit">Generate Random Number</button>
-            </form>
+            <h1></h1>
+            <button id="transparent-button"></button>
             {% if number is not none %}
-                <p class="number">{{ number }}</p>
+                <p id="number" class="number">{{ number }}</p>
             {% endif %}
         </div>
     </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
