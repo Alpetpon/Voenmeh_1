@@ -10,11 +10,4 @@ def index():
 @app.route('/generate', methods=['POST'])
 def generate():
     number = random.randint(1, 100)
-    return jsonify(number=number)
-
-# Vercel serverless function entry point
-app = app
-
-# Vercel serverless function handler
-def handler(request):
-    return app(request.environ, lambda status, headers: None) 
+    return jsonify(number=number) 
