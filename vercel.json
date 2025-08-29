@@ -13,16 +13,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/index.py"
+      "dest": "index.py"
     }
-  ],
-  "functions": {
-    "index.py": {
-      "runtime": "python3.11",
-      "maxDuration": 10
-    }
-  },
-  "env": {
-    "VERCEL": "1"
-  }
+  ]
 } 

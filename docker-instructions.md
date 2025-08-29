@@ -1,36 +1,50 @@
-# Инструкции по запуску в Docker
+# Инструкции по Docker
 
-## Сборка Docker образа
+## Сборка образа
 
 ```bash
-docker build -t random-number-generator .
+docker build -t voenmeh-randomizer .
 ```
 
 ## Запуск контейнера
 
 ```bash
-docker run -p 8080:5000 random-number-generator
+docker run -p 5000:5000 voenmeh-randomizer
 ```
 
-После запуска приложение будет доступно по адресу: http://localhost:8080
+## Запуск в фоновом режиме
+
+```bash
+docker run -d -p 5000:5000 --name voenmeh-app voenmeh-randomizer
+```
+
+## Остановка контейнера
+
+```bash
+docker stop voenmeh-app
+```
+
+## Удаление контейнера
+
+```bash
+docker rm voenmeh-app
+```
+
+## Просмотр логов
+
+```bash
+docker logs voenmeh-app
+```
+
+## Доступ к приложению
+
+После запуска контейнера приложение будет доступно по адресу:
+http://localhost:5000
 
 ## Переменные окружения
 
-Для production использования рекомендуется установить свой SECRET_KEY:
+Для продакшена рекомендуется установить переменную окружения для секретного ключа:
 
 ```bash
-docker run -p 8080:5000 -e SECRET_KEY="your-secret-key" random-number-generator
+docker run -p 5000:5000 -e SECRET_KEY=your-secret-key voenmeh-randomizer
 ```
-
-## Структура приложения
-
-- **Главная страница** (`/`) - генератор случайных чисел
-- **Настройки** (`/settings`) - изменение диапазона чисел
-- **API** (`/generate`) - генерация числа через AJAX
-
-## Особенности
-
-- Настройки сохраняются в сессии пользователя
-- По умолчанию диапазон: 1-100
-- Пользователь может изменить диапазон в настройках
-- Валидация: минимальное число должно быть меньше максимального
