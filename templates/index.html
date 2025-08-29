@@ -11,7 +11,7 @@
             width: 100%;
             height: 100%;
             font-family: Arial, sans-serif;
-            background-image: url('./static/background.png');
+            background-image: url('{{ url_for("static", filename="background.png") }}');
             background-repeat: no-repeat;
             background-position: center center;
             background-attachment: fixed;
@@ -62,7 +62,7 @@
         }
     </style>
 </head>
-<body>
+<body data-min-num="{{ min_num }}" data-max-num="{{ max_num }}">
     <div class="container">
         <button id="transparent-button"></button>
         <p id="number" class="number">?</p>
@@ -78,11 +78,11 @@
             console.log('Ошибка загрузки фонового изображения');
             document.body.style.backgroundImage = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
         };
-        bgImage.src = './static/background.png';
+        bgImage.src = '{{ url_for("static", filename="background.png") }}';
         
-        // Передаем настройки в JavaScript
-        const minNum = {{ min_num }};
-        const maxNum = {{ max_num }};
+        // Получаем настройки из data-атрибутов
+        const minNum = parseInt(document.body.getAttribute('data-min-num'));
+        const maxNum = parseInt(document.body.getAttribute('data-max-num'));
         
         document.getElementById('transparent-button').addEventListener('click', function() {
             // Генерируем случайное число в заданном диапазоне
