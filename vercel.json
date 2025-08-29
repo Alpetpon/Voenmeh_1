@@ -9,11 +9,19 @@
   "routes": [
     {
       "src": "/static/(.*)",
-      "dest": "/static/$1"
+      "dest": "/static/$1",
+      "headers": {
+        "cache-control": "s-maxage=31536000"
+      }
     },
     {
       "src": "/(.*)",
       "dest": "app.py"
     }
-  ]
+  ],
+  "functions": {
+    "app.py": {
+      "includeFiles": "static/**"
+    }
+  }
 } 

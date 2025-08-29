@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, session, redirect, url_for
+from flask import Flask, render_template, request, jsonify, session, redirect, url_for, send_from_directory
 import random
 import os
 import logging
@@ -143,6 +143,16 @@ def not_found_error(error):
     logger.error(f"Not found error: {error}")
     return "Not Found", 404
 
+# Маршрут для обслуживания статических файлов на Vercel
+@app.route('/static/<path:filename>')
+def static_files(filename):
+    try:
+        logger.info(f"Serving static file: {filename}")
+        return send_from_directory(app.static_folder, filename)
+    except Exception as e:
+        logger.error(f"Error serving static file {filename}: {str(e)}")
+        return "File not found", 404
+
 # Тестовый маршрут для проверки работоспособности
 @app.route('/test')
 def test():
@@ -153,7 +163,8 @@ def test():
             "template_folder": app.template_folder,
             "static_folder": app.static_folder,
             "templates_exist": os.path.exists(app.template_folder),
-            "static_exist": os.path.exists(app.static_folder)
+            "static_exist": os.path.exists(app.static_folder),
+            "background_exists": os.path.exists(os.path.join(app.static_folder, 'background.png'))
         }
     except Exception as e:
         logger.error(f"Error in test route: {str(e)}")
