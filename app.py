@@ -1,8 +1,9 @@
 from flask import Flask, render_template, request, jsonify, session, redirect, url_for
 import random
+import os
 
 app = Flask(__name__)
-app.secret_key = 'your-secret-key-here'  # Необходим для работы с сессиями
+app.secret_key = os.environ.get('SECRET_KEY', 'your-secret-key-here')  # Используем переменную окружения
 
 @app.route('/', methods=['GET'])
 def index():
