@@ -2,8 +2,20 @@ from flask import Flask, render_template, request, jsonify, session, redirect, u
 import random
 import os
 
-app = Flask(__name__, template_folder='../templates', static_folder='../static')
-app.secret_key = os.environ.get('SECRET_KEY', 'your-secret-key-change-in-production')
+app = Flask(__name__)
+
+# Настройка секретного ключа для сессий
+app.secret_key = os.environ.get('SECRET_KEY', 'development-secret-key-12345')
+
+# Настройка для Vercel - автоматическое определение путей
+if os.environ.get('VERCEL'):
+    app.template_folder = 'templates'
+    app.static_folder = 'static'
+
+# Настройка для serverless среды
+app.config['SESSION_COOKIE_SECURE'] = True
+app.config['SESSION_COOKIE_HTTPONLY'] = True
+app.config['PERMANENT_SESSION_LIFETIME'] = 3600  # 1 час
 
 def get_number_range():
     """Получить диапазон чисел из сессии или использовать значения по умолчанию"""
@@ -46,6 +58,9 @@ def generate():
     min_num, max_num = get_number_range()
     number = random.randint(min_num, max_num)
     return jsonify(number=number)
+
+# Экспорт приложения для Vercel
+application = app
 
 if __name__ == '__main__':
     # Для Docker контейнера нужно слушать на всех интерфейсах
