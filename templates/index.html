@@ -24,24 +24,6 @@
             position: relative;
         }
 
-        .randomizer {
-            background: rgba(255, 255, 255, 0.1);
-            padding: 40px;
-            border-radius: 20px;
-            text-align: center;
-            z-index: 1;
-            backdrop-filter: blur(10px);
-            border: 1px solid rgba(255, 255, 255, 0.2);
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
-        }
-
-        .randomizer h1 {
-            margin-bottom: 20px;
-            color: white;
-            font-size: 2.5em;
-            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
-        }
-
         #transparent-button {
             position: absolute;
             top: 0;
@@ -56,58 +38,19 @@
         }
 
         .number {
-            margin-top: 30px;
-            font-size: 120px;
+            font-size: 200px;
             font-weight: bold;
             color: white;
-            text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+            text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.7);
             transition: all 0.3s ease;
-        }
-
-        .number:hover {
-            transform: scale(1.1);
-        }
-
-        .settings-link {
-            position: fixed;
-            top: 20px;
-            right: 20px;
-            z-index: 1000;
-        }
-
-        .settings-link a {
-            background: rgba(255, 255, 255, 0.9);
-            color: #333;
-            text-decoration: none;
-            padding: 12px 20px;
-            border-radius: 25px;
-            font-size: 16px;
-            font-weight: bold;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-            transition: all 0.3s ease;
-        }
-
-        .settings-link a:hover {
-            background: white;
-            transform: translateY(-2px);
-            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
-        }
-
-        .range-info {
-            margin-bottom: 20px;
-            font-size: 18px;
-            color: white;
-            background: rgba(0, 0, 0, 0.3);
-            padding: 10px 20px;
-            border-radius: 20px;
-            display: inline-block;
-            backdrop-filter: blur(5px);
+            z-index: 1;
+            position: relative;
         }
 
         /* Анимация для числа */
         @keyframes pulse {
             0% { transform: scale(1); }
-            50% { transform: scale(1.05); }
+            50% { transform: scale(1.1); }
             100% { transform: scale(1); }
         }
 
@@ -117,19 +60,9 @@
     </style>
 </head>
 <body>
-    <div class="settings-link">
-        <a href="{{ url_for('settings') }}">⚙️ Настройки</a>
-    </div>
-    
     <div class="container">
-        <div class="randomizer">
-            <h1>Нажмите в любое место</h1>
-            <div class="range-info">
-                Диапазон: {{ min_num }} - {{ max_num }}
-            </div>
-            <button id="transparent-button"></button>
-            <p id="number" class="number">?</p>
-        </div>
+        <button id="transparent-button"></button>
+        <p id="number" class="number">?</p>
     </div>
     
     <script>
@@ -156,10 +89,7 @@
         
         // Добавляем обработчик для клика по всему экрану
         document.addEventListener('click', function(event) {
-            // Если клик не по кнопке настроек
-            if (!event.target.closest('.settings-link')) {
-                document.getElementById('transparent-button').click();
-            }
+            document.getElementById('transparent-button').click();
         });
     </script>
 </body>
