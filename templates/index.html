@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Генератор случайных чисел</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="settings-link">
+        <a href="{{ url_for('settings') }}">⚙️ Настройки</a>
+    </div>
+    
+    <div class="container">
+        <div class="randomizer">
+            <h1>Нажмите в любое место</h1>
+            <div class="range-info">
+                Диапазон: {{ min_num }} - {{ max_num }}
+            </div>
+            <button id="transparent-button"></button>
+            <p id="number" class="number">?</p>
+        </div>
+    </div>
+    
+    <script>
+        // Передаем настройки в JavaScript
+        const minNum = {{ min_num }};
+        const maxNum = {{ max_num }};
+    </script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
