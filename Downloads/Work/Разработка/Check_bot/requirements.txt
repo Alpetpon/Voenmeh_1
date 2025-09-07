@@ -1,0 +1,38 @@
+# Core
+aiogram==3.15.0
+fastapi==0.115.6
+uvicorn[standard]==0.34.0
+
+# Database
+sqlalchemy==2.0.36
+asyncpg==0.30.0
+alembic==1.14.0
+
+# QR Code & Image processing
+pyzbar==0.1.9
+opencv-python==4.10.0.84
+pillow==11.0.0
+pytesseract==0.3.13
+
+# HTTP Client
+aiohttp==3.10.11
+httpx==0.28.1
+
+# Background tasks & Scheduling
+apscheduler==3.11.0
+
+# Reports
+pandas==2.2.3
+xlsxwriter==3.2.0
+
+# Cloud storage (Yandex.Disk)
+# httpx уже включен выше для HTTP запросов
+
+# Config & environment
+pydantic==2.9.2
+pydantic-settings==2.7.0
+python-dotenv==1.0.1
+
+# Utils
+python-multipart==0.0.20
+loguru==0.7.3 

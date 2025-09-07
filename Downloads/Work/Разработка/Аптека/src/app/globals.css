@@ -1,0 +1,321 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Фирменные цвета ЭкоЛайф - светлая тема */
+    --background: 0 0% 100%;
+    --foreground: 0 0% 0%;
+    --card: 0 0% 100%;
+    --card-foreground: 0 0% 0%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 0 0% 0%;
+    --primary: 158 98% 23%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 12% 32%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 220 14% 96%;
+    --muted-foreground: 215 28% 42%;
+    --accent: 200 69% 61%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 220 13% 91%;
+    --input: 220 13% 91%;
+    --ring: 158 98% 23%;
+    --radius: 2rem;
+    
+    /* Фирменные цвета */
+    --brand-brown: #544740;
+    --brand-green: #01735c;
+    --brand-blue: #63b2d1;
+    --brand-white: #ffffff;
+    --brand-black: #000000;
+  }
+
+  .dark {
+    /* Фирменные цвета ЭкоЛайф - темная тема */
+    --background: 222 84% 5%;
+    --foreground: 0 0% 100%;
+    --card: 222 84% 5%;
+    --card-foreground: 0 0% 100%;
+    --popover: 222 84% 5%;
+    --popover-foreground: 0 0% 100%;
+    --primary: 158 98% 23%;
+    --primary-foreground: 0 0% 100%;
+    --secondary: 30 12% 15%;
+    --secondary-foreground: 0 0% 100%;
+    --muted: 217 33% 17%;
+    --muted-foreground: 215 20% 65%;
+    --accent: 200 69% 61%;
+    --accent-foreground: 0 0% 100%;
+    --destructive: 0 63% 31%;
+    --destructive-foreground: 0 0% 100%;
+    --border: 217 33% 17%;
+    --input: 217 33% 17%;
+    --ring: 158 98% 23%;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-feature-settings: "rlig" 1, "calt" 1;
+  }
+
+  /* Улучшенная типографика */
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-semibold tracking-tight;
+  }
+
+  /* Кастомные скроллбары */
+  ::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+  }
+
+  ::-webkit-scrollbar-track {
+    @apply bg-muted/20;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    @apply bg-muted-foreground/30 rounded-full;
+  }
+
+  ::-webkit-scrollbar-thumb:hover {
+    @apply bg-muted-foreground/50;
+  }
+
+  /* Selection styles */
+  ::selection {
+    @apply bg-primary/20 text-primary-foreground;
+  }
+
+  /* Focus styles для accessibility */
+  :focus-visible {
+    @apply outline-none ring-2 ring-ring ring-offset-2 ring-offset-background;
+  }
+
+  /* Плавные переходы для цветовых тем */
+  * {
+    transition-property: background-color, border-color, color, fill, stroke, opacity, box-shadow, transform, filter, backdrop-filter;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 150ms;
+  }
+}
+
+@layer components {
+  /* Glass morphism эффекты */
+  .glass {
+    @apply backdrop-blur-md bg-white/10 dark:bg-black/10 border border-white/20 dark:border-white/5;
+  }
+
+  .glass-strong {
+    @apply backdrop-blur-xl bg-white/20 dark:bg-black/20 border border-white/30 dark:border-white/10;
+  }
+
+  /* Кнопки с glass эффектом */
+  .btn-glass {
+    @apply glass hover:bg-white/20 dark:hover:bg-black/20 transition-all duration-200 ease-smooth;
+  }
+
+  /* Карточки с hover эффектами */
+  .card-hover {
+    @apply transition-all duration-200 ease-smooth hover:-translate-y-2 hover:shadow-xl hover:shadow-primary/10;
+  }
+
+  /* Liquid glass navigation */
+  .nav-glass {
+    @apply backdrop-blur-md bg-white/70 dark:bg-black/70 border-b border-white/20 dark:border-white/5;
+    backdrop-filter: blur(12px) saturate(180%);
+  }
+
+  /* Анимированные градиенты */
+  .gradient-animate {
+    background: linear-gradient(-45deg, #01735c, #63b2d1, #544740, #01735c);
+    background-size: 400% 400%;
+    animation: gradientShift 15s ease infinite;
+  }
+
+  @keyframes gradientShift {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+  }
+
+  /* Кастомные анимации загрузки */
+  .loading-dots {
+    @apply flex space-x-1;
+  }
+
+  .loading-dots div {
+    @apply w-2 h-2 bg-primary rounded-full animate-pulse;
+    animation-delay: calc(var(--i) * 0.1s);
+  }
+
+  /* Bento grid layouts */
+  .bento-grid {
+    @apply grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-4 auto-rows-fr;
+  }
+
+  .bento-item {
+    @apply bg-card rounded-2xl p-6 border border-border/50 hover:border-border transition-all duration-300;
+  }
+
+  .bento-item-large {
+    @apply md:col-span-2 lg:col-span-2;
+  }
+
+  .bento-item-tall {
+    @apply md:row-span-2;
+  }
+
+  /* Микро-анимации */
+  .micro-bounce {
+    animation: microBounce 0.6s ease-out;
+  }
+
+  @keyframes microBounce {
+    0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+    40% { transform: translateY(-4px); }
+    60% { transform: translateY(-2px); }
+  }
+
+  /* Анимации появления */
+  .fade-in {
+    animation: fadeIn 0.6s ease-out forwards;
+    opacity: 0;
+  }
+
+  .fade-in-up {
+    animation: fadeInUp 0.8s ease-out forwards;
+    opacity: 0;
+    transform: translateY(30px);
+  }
+
+  .fade-in-scale {
+    animation: fadeInScale 0.5s ease-out forwards;
+    opacity: 0;
+    transform: scale(0.9);
+  }
+
+  @keyframes fadeIn {
+    to { opacity: 1; }
+  }
+
+  @keyframes fadeInUp {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes fadeInScale {
+    to {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+
+  /* Стили для accessibility */
+  @media (prefers-reduced-motion: reduce) {
+    *, *::before, *::after {
+      animation-duration: 0.01ms !important;
+      animation-iteration-count: 1 !important;
+      transition-duration: 0.01ms !important;
+    }
+  }
+
+  /* Высококонтрастная тема */
+  @media (prefers-contrast: high) {
+    .glass {
+      @apply bg-background border-foreground;
+    }
+  }
+
+  /* Стили для print */
+  @media print {
+    .no-print {
+      display: none !important;
+    }
+    
+    * {
+      color: black !important;
+      background: white !important;
+    }
+  }
+}
+
+@layer utilities {
+  /* Утилиты для улучшенной типографики */
+  .text-balance {
+    text-wrap: balance;
+  }
+
+  .text-pretty {
+    text-wrap: pretty;
+  }
+
+  /* Утилиты для container queries */
+  .container-normal {
+    container-type: normal;
+  }
+
+  .container-size {
+    container-type: size;
+  }
+
+  .container-inline-size {
+    container-type: inline-size;
+  }
+
+  /* Безопасные отступы для iOS */
+  .safe-top {
+    padding-top: env(safe-area-inset-top);
+  }
+
+  .safe-bottom {
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .safe-left {
+    padding-left: env(safe-area-inset-left);
+  }
+
+  .safe-right {
+    padding-right: env(safe-area-inset-right);
+  }
+
+  /* Утилиты для анимаций */
+  .animate-delay-100 {
+    animation-delay: 100ms;
+  }
+
+  .animate-delay-200 {
+    animation-delay: 200ms;
+  }
+
+  .animate-delay-300 {
+    animation-delay: 300ms;
+  }
+
+  .animate-delay-500 {
+    animation-delay: 500ms;
+  }
+
+  /* Утилиты для aspect ratio */
+  .aspect-golden {
+    aspect-ratio: 1.618;
+  }
+
+  .aspect-photo {
+    aspect-ratio: 4/3;
+  }
+
+  .aspect-video {
+    aspect-ratio: 16/9;
+  }
+} 

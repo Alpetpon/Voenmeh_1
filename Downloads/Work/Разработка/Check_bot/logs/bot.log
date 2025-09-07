@@ -1,0 +1,642 @@
+2025-06-28T14:41:49.938772+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:41:49.942662+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:41:50.083700+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:41:50.086160+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:41:50.086236+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:41:50.136425+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:41:50.136637+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:43:46.564993+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:43:46.570928+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:43:46.715141+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:43:46.719681+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:43:46.719770+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:43:46.765504+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:43:46.765662+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:45:01.232273+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:45:01.237973+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:45:01.384249+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:45:01.387928+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:45:01.388010+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:45:01.431526+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:45:01.431662+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:45:25.489230+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T14:45:26.260659+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T14:45:26.261251+0300 | WARNING | QR код не похож на чек ОФД
+2025-06-28T14:45:26.261296+0300 | ERROR | Не удалось извлечь параметры чека из QR кода
+2025-06-28T14:48:26.602031+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T14:48:26.663244+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T14:48:26.663541+0300 | WARNING | QR код не содержит параметров
+2025-06-28T14:48:26.663599+0300 | ERROR | Не удалось извлечь параметры чека из QR кода
+2025-06-28T14:49:58.361375+0300 | INFO | Завершение работы бота...
+2025-06-28T14:49:58.363032+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:49:58.363210+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:49:58.363276+0300 | INFO | Бот завершен
+2025-06-28T14:52:58.006536+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:52:58.011812+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:52:58.178336+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:52:58.182034+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:52:58.182108+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:52:58.226947+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:52:58.227090+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:53:12.043735+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T14:53:12.657946+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T14:53:12.658555+0300 | INFO | Параметры чека извлечены: {'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T14:53:12.666300+0300 | INFO | Создан чек с ID 1
+2025-06-28T14:53:12.797586+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '401 UNAUTHORIZED' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F2025%2F06%2FEchoTech_Corp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-06-28T14:53:12.883198+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '401 UNAUTHORIZED' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-06-28T14:53:12.967615+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '401 UNAUTHORIZED' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-06-28T14:53:12.968734+0300 | ERROR | Не удалось создать папку: /
+2025-06-28T14:53:13.065540+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '401 UNAUTHORIZED' for url 'https://cloud-api.yandex.net/v1/disk/resources/upload?path=%2F2025%2F06%2FEchoTech_Corp%2F1_photo.jpg&overwrite=true'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/401
+2025-06-28T14:53:13.065985+0300 | ERROR | Не удалось получить URL для загрузки: /2025/06/EchoTech_Corp/1_photo.jpg
+2025-06-28T14:53:13.066150+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 't': '20250611T1403', 's': '1200.00', 'fn': '7284440500042964', 'i': '1184', 'fp': '3765502953', 'qr': 1}
+2025-06-28T14:53:13.137738+0300 | ERROR | Ошибка API: Неизвестная ошибка
+2025-06-28T14:53:13.143986+0300 | ERROR | Не удалось получить данные чека через API
+2025-06-28T14:55:07.067598+0300 | INFO | Завершение работы бота...
+2025-06-28T14:55:07.069311+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:55:07.069433+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:55:07.069559+0300 | INFO | Бот завершен
+2025-06-28T14:56:10.344026+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:56:10.350234+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:56:10.504586+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:56:10.508752+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:56:10.508838+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:56:10.554156+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:56:10.554350+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:56:19.850204+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T14:56:20.462657+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T14:56:20.463374+0300 | INFO | Параметры чека извлечены: {'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T14:56:20.470259+0300 | INFO | Создан чек с ID 2
+2025-06-28T14:56:20.470340+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T14:56:20.470384+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 't': '20250611T1403', 's': '1200.00', 'fn': '7284440500042964', 'i': '1184', 'fp': '3765502953', 'qr': 1}
+2025-06-28T14:56:20.527446+0300 | INFO | Ответ API proverkacheka.com: {'code': 401, 'data': 'Не авторизован (не представился). Для доступа к запрашиваемому ресурсу требуется аутентификация.'}
+2025-06-28T14:56:20.527569+0300 | ERROR | Ошибка API: код 401, сообщение: Неизвестная ошибка
+2025-06-28T14:56:20.527614+0300 | ERROR | Полный ответ API: {'code': 401, 'data': 'Не авторизован (не представился). Для доступа к запрашиваемому ресурсу требуется аутентификация.'}
+2025-06-28T14:56:20.529708+0300 | ERROR | Не удалось получить данные чека через API
+2025-06-28T14:58:52.379958+0300 | INFO | Завершение работы бота...
+2025-06-28T14:58:52.381968+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:58:52.382126+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T14:58:52.382236+0300 | INFO | Бот завершен
+2025-06-28T14:59:29.978327+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T14:59:29.983769+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T14:59:30.123524+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T14:59:30.126922+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:59:30.126989+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T14:59:30.169151+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T14:59:30.169295+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T14:59:40.600540+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T14:59:41.221945+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T14:59:41.222525+0300 | INFO | Параметры чека извлечены: {'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T14:59:41.229894+0300 | INFO | Создан чек с ID 3
+2025-06-28T14:59:41.229967+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T14:59:41.230014+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T14:59:41.298502+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T14:59:41.298857+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T14:59:41.299368+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T14:59:41.299744+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T14:59:41.306044+0300 | INFO | Чек 3 успешно обработан
+2025-06-28T15:01:41.707100+0300 | INFO | Завершение работы бота...
+2025-06-28T15:01:41.709207+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:01:41.709487+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:01:41.709775+0300 | INFO | Бот завершен
+2025-06-28T15:01:45.339984+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T15:01:45.348158+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T15:01:45.489198+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T15:01:45.493158+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:01:45.493258+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:01:45.535297+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T15:01:45.535449+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T15:02:12.104834+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T15:02:12.212817+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T15:02:12.213141+0300 | WARNING | QR код не содержит параметров чека: ['t', 's', 'fn', 'i', 'fp']
+2025-06-28T15:02:12.213188+0300 | INFO | Найденные параметры: []
+2025-06-28T15:02:12.213221+0300 | ERROR | Не удалось извлечь параметры чека из QR кода
+2025-06-28T15:02:44.191518+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T15:02:44.766508+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T15:02:44.767159+0300 | INFO | Параметры чека извлечены: {'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T15:02:44.772781+0300 | INFO | Создан чек с ID 1
+2025-06-28T15:02:44.772870+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T15:02:44.772934+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T15:02:44.825347+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T15:02:44.825660+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T15:02:44.826112+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T15:02:44.826390+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T15:02:44.831926+0300 | INFO | Чек 1 успешно обработан
+2025-06-28T15:05:21.486475+0300 | INFO | Завершение работы бота...
+2025-06-28T15:05:21.489186+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:05:21.489394+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:05:21.489528+0300 | INFO | Бот завершен
+2025-06-28T15:05:25.030440+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T15:05:25.032881+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T15:05:25.165797+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T15:05:25.171374+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:05:25.171548+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:05:25.213181+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T15:05:25.213305+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T15:05:32.249965+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T15:05:32.851196+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T15:05:32.851774+0300 | INFO | Обрабатываем QR код: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T15:05:32.851820+0300 | INFO | Обрабатываем строку параметров фискального чека
+2025-06-28T15:05:32.851863+0300 | INFO | Параметры чека извлечены: {'type': 'fiscal_params', 'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T15:05:32.856947+0300 | INFO | Создан чек с ID 2
+2025-06-28T15:05:32.857013+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T15:05:32.857052+0300 | INFO | Обрабатываем фискальный чек
+2025-06-28T15:05:32.857084+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T15:05:32.920156+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T15:05:32.920524+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T15:05:32.920993+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T15:05:32.921372+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T15:05:32.929179+0300 | INFO | Чек 2 успешно обработан
+2025-06-28T15:05:36.546091+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T15:05:36.597978+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T15:05:36.598379+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T15:05:36.598442+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T15:05:36.603520+0300 | INFO | Создан чек с ID 3
+2025-06-28T15:05:36.603630+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T15:05:36.603693+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T15:05:36.603745+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T15:05:36.662690+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T15:05:36.662888+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T15:05:36.662963+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T15:05:36.663026+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T15:05:36.663258+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T15:05:36.667745+0300 | INFO | Чек 3 успешно обработан
+2025-06-28T15:10:25.721821+0300 | INFO | Завершение работы бота...
+2025-06-28T15:10:25.723824+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:10:25.724050+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:10:25.724221+0300 | INFO | Бот завершен
+2025-06-28T15:14:33.868853+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T15:14:33.874262+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T15:14:34.029929+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T15:14:34.035582+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:14:34.035708+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T15:14:34.081769+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T15:14:34.081928+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T15:14:41.726897+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T15:14:41.836039+0300 | INFO | QR код найден: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T15:14:41.836367+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T15:14:41.836435+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T15:14:41.841788+0300 | INFO | Создан чек с ID 4
+2025-06-28T15:14:41.841860+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T15:14:41.841898+0300 | INFO | Обрабатываем чек самозанятого с помощью OCR
+2025-06-28T15:14:41.841933+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T15:14:41.841971+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T15:14:41.943194+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T15:14:41.943340+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T15:14:41.943398+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T15:14:41.943451+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T15:14:41.943676+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T15:14:41.947407+0300 | INFO | Чек 4 успешно обработан
+2025-06-28T15:15:20.327559+0300 | INFO | Завершение работы бота...
+2025-06-28T15:15:20.328760+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:15:20.328953+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T15:15:20.329087+0300 | INFO | Бот завершен
+2025-06-28T16:15:00.442342+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:15:00.449128+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:15:00.599629+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:15:00.605541+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:15:00.605655+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:15:00.653230+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:15:00.653380+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:15:08.188229+0300 | INFO | Завершение работы бота...
+2025-06-28T16:15:08.189478+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:15:08.189726+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:15:08.189949+0300 | INFO | Бот завершен
+2025-06-28T16:15:15.580419+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:15:15.582749+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:15:15.722092+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:15:15.726564+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:15:15.726655+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:15:15.768558+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:15:15.768714+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:15:21.566052+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:15:21.679970+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:15:21.680283+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:15:21.680326+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:15:21.685771+0300 | INFO | Создан чек с ID 5
+2025-06-28T16:15:21.685845+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T16:15:21.685914+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:15:21.685948+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:15:21.749079+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:15:21.749204+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:15:21.749260+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:15:21.749325+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:15:21.749505+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:15:23.082677+0300 | INFO | OCR текст извлечен
+2025-06-28T16:15:23.083428+0300 | INFO | Найдена сумма: 1.0
+2025-06-28T16:15:23.083558+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:15:23.083632+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:15:23.083676+0300 | INFO | Из OCR извлечены данные: {'sum': 1.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:15:23.084096+0300 | INFO | OCR извлек сумму: 1.0
+2025-06-28T16:15:23.084410+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:15:23.084532+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T16:15:23.089073+0300 | INFO | Чек 5 успешно обработан
+2025-06-28T16:15:50.644048+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:15:50.695828+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:15:50.696151+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:15:50.696213+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:15:50.700335+0300 | INFO | Создан чек с ID 6
+2025-06-28T16:15:50.700428+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T16:15:50.700493+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:15:50.700543+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:15:50.751786+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:15:50.752018+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:15:50.752114+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:15:50.752191+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:15:50.752426+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:15:51.060507+0300 | INFO | OCR текст извлечен
+2025-06-28T16:15:51.060748+0300 | INFO | Найдена сумма: 1.0
+2025-06-28T16:15:51.060789+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:15:51.060825+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:15:51.060856+0300 | INFO | Из OCR извлечены данные: {'sum': 1.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:15:51.061030+0300 | INFO | OCR извлек сумму: 1.0
+2025-06-28T16:15:51.061125+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:15:51.061242+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T16:15:51.064718+0300 | INFO | Чек 6 успешно обработан
+2025-06-28T16:17:51.158789+0300 | INFO | Завершение работы бота...
+2025-06-28T16:17:51.160427+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:17:51.160523+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:17:51.160596+0300 | INFO | Бот завершен
+2025-06-28T16:17:54.675800+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:17:54.678226+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:17:54.835566+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:17:54.840837+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:17:54.840937+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:17:54.887047+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:17:54.887194+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:17:59.493488+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:17:59.602994+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:17:59.603291+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:17:59.603335+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:17:59.608731+0300 | INFO | Создан чек с ID 7
+2025-06-28T16:17:59.608803+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T16:17:59.608876+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:17:59.608911+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:17:59.704460+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:17:59.704634+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:17:59.704697+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:17:59.704776+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:17:59.705006+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:18:00.018872+0300 | INFO | OCR извлеченный текст:
+ЧЕК Чек № 200jz2t40g
+
+23.06.2025 11:09:30(+03:00),
+Режим НО: НПД
+СЧЕТ №19257387 >
+
+ПОНОМАРЕВ
+АЛЕКСЕЙ АЛЕКСЕЕВИЧ
+
+Наименование услуг Сумма
+
+1 Разработка ядра 10 500,00 P
+телеграм бота
+
+Итого 10 500,00Р
+UHH 614199204300
+Покупатель
+
+ИНН 6678138744
+
+
+2025-06-28T16:18:00.019123+0300 | INFO | Начинаем поиск суммы в тексте
+2025-06-28T16:18:00.019167+0300 | INFO | Пытаемся паттерн 1: (?:итого|всего|сумма)[\s:]*(\d{1,3}(?:\s\d{3})*[,.]?\d{0,2})\s*(?:₽|руб|р\.?)
+2025-06-28T16:18:00.019629+0300 | INFO | Найдены совпадения: ['1', '10 500,00']
+2025-06-28T16:18:00.019701+0300 | INFO | Преобразована сумма: '1' -> 1.0
+2025-06-28T16:18:00.019744+0300 | INFO | Преобразована сумма: '10 500,00' -> 10500.0
+2025-06-28T16:18:00.019777+0300 | INFO | Итоговая найденная сумма: 10500.0 (из '10 500,00')
+2025-06-28T16:18:00.019871+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:18:00.019938+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:18:00.019972+0300 | INFO | Из OCR извлечены данные: {'sum': 10500.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:18:00.020401+0300 | INFO | OCR извлек сумму: 10500.0
+2025-06-28T16:18:00.020717+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:18:00.020867+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T16:18:00.025386+0300 | INFO | Чек 7 успешно обработан
+2025-06-28T16:20:06.953141+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:20:07.526999+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:20:07.527553+0300 | INFO | Обрабатываем QR код: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:20:07.527598+0300 | INFO | Обрабатываем строку параметров фискального чека
+2025-06-28T16:20:07.527643+0300 | INFO | Параметры чека извлечены: {'type': 'fiscal_params', 'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:20:07.532678+0300 | INFO | Создан чек с ID 8
+2025-06-28T16:20:07.532769+0300 | INFO | Загрузка в Яндекс.Диск временно отключена
+2025-06-28T16:20:07.532837+0300 | INFO | Обрабатываем фискальный чек
+2025-06-28T16:20:07.532879+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:20:07.591879+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T16:20:07.592238+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T16:20:07.592950+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T16:20:07.593354+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено
+2025-06-28T16:20:07.600795+0300 | INFO | Чек 8 успешно обработан
+2025-06-28T16:35:59.621945+0300 | INFO | Завершение работы бота...
+2025-06-28T16:35:59.623053+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:35:59.623173+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:35:59.623290+0300 | INFO | Бот завершен
+2025-06-28T16:36:03.205908+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:36:03.210098+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:36:03.363191+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:36:03.368193+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:36:03.368278+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:36:03.412805+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:36:03.412934+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:36:11.830696+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:36:12.447072+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:36:12.447634+0300 | INFO | Обрабатываем QR код: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:36:12.447677+0300 | INFO | Обрабатываем строку параметров фискального чека
+2025-06-28T16:36:12.447722+0300 | INFO | Параметры чека извлечены: {'type': 'fiscal_params', 'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:36:12.453560+0300 | INFO | Создан чек с ID 9
+2025-06-28T16:36:12.751280+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F2025%2F06%2FEchoTech_Corp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:13.089337+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:13.438100+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:13.438965+0300 | ERROR | Не удалось создать папку: /
+2025-06-28T16:36:13.754081+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources/upload?path=%2F2025%2F06%2FEchoTech_Corp%2F9_photo.jpg&overwrite=true'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:13.754293+0300 | ERROR | Не удалось получить URL для загрузки: /2025/06/EchoTech_Corp/9_photo.jpg
+2025-06-28T16:36:13.754339+0300 | WARNING | Не удалось сохранить фото в Яндекс.Диск
+2025-06-28T16:36:13.754385+0300 | INFO | Обрабатываем фискальный чек
+2025-06-28T16:36:13.754418+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:36:13.808580+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T16:36:13.808969+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T16:36:13.809294+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T16:36:13.809651+0300 | ERROR | Ошибка при обработке чека: Object of type datetime is not JSON serializable
+2025-06-28T16:36:35.605045+0300 | INFO | Завершение работы бота...
+2025-06-28T16:36:35.607332+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:36:35.607537+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:36:35.607731+0300 | INFO | Бот завершен
+2025-06-28T16:36:39.423069+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:36:39.425211+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:36:39.586444+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:36:39.592487+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:36:39.592616+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:36:39.642117+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:36:39.642318+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:36:49.202056+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:36:49.784431+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:36:49.785110+0300 | INFO | Обрабатываем QR код: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:36:49.785160+0300 | INFO | Обрабатываем строку параметров фискального чека
+2025-06-28T16:36:49.785206+0300 | INFO | Параметры чека извлечены: {'type': 'fiscal_params', 'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:36:49.790665+0300 | INFO | Создан чек с ID 10
+2025-06-28T16:36:50.163084+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F2025%2F06%2FEchoTech_Corp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:50.507549+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:50.763042+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:50.764111+0300 | ERROR | Не удалось создать папку: /
+2025-06-28T16:36:50.991641+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources/upload?path=%2F2025%2F06%2FEchoTech_Corp%2F10_photo.jpg&overwrite=true'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:36:50.991989+0300 | ERROR | Не удалось получить URL для загрузки: /2025/06/EchoTech_Corp/10_photo.jpg
+2025-06-28T16:36:50.992080+0300 | WARNING | Не удалось сохранить фото в Яндекс.Диск
+2025-06-28T16:36:50.992159+0300 | INFO | Обрабатываем фискальный чек
+2025-06-28T16:36:50.992226+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:36:51.053171+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T16:36:51.054008+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T16:36:51.055043+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T16:36:51.055824+0300 | ERROR | Ошибка при обработке чека: Object of type datetime is not JSON serializable
+2025-06-28T16:37:00.429178+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:37:00.474067+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:37:00.474489+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:37:00.474564+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:37:00.479198+0300 | INFO | Создан чек с ID 11
+2025-06-28T16:37:00.791590+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F2025%2F06%2FEchoTech_Corp'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:37:01.190623+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:37:01.574317+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources?path=%2F'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:37:01.575175+0300 | ERROR | Не удалось создать папку: /
+2025-06-28T16:37:01.780055+0300 | ERROR | HTTP ошибка при запросе к Яндекс.Диску: Client error '403 FORBIDDEN' for url 'https://cloud-api.yandex.net/v1/disk/resources/upload?path=%2F2025%2F06%2FEchoTech_Corp%2F11_photo.jpg&overwrite=true'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/403
+2025-06-28T16:37:01.780325+0300 | ERROR | Не удалось получить URL для загрузки: /2025/06/EchoTech_Corp/11_photo.jpg
+2025-06-28T16:37:01.780397+0300 | WARNING | Не удалось сохранить фото в Яндекс.Диск
+2025-06-28T16:37:01.780453+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:37:01.780506+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:37:01.845284+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:37:01.845469+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:37:01.845550+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:37:01.845621+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:37:01.845845+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:37:02.167509+0300 | INFO | OCR извлеченный текст:
+ЧЕК Чек № 200jz2t40g
+
+23.06.2025 11:09:30(+03:00),
+Режим НО: НПД
+СЧЕТ №19257387 >
+
+ПОНОМАРЕВ
+АЛЕКСЕЙ АЛЕКСЕЕВИЧ
+
+Наименование услуг Сумма
+
+1 Разработка ядра 10 500,00 Р
+телеграм бота
+
+Итого 10 500,00 Р
+UHH 614199204300
+Покупатель
+
+ИНН 6678138744
+
+
+2025-06-28T16:37:02.167732+0300 | INFO | Начинаем поиск суммы в тексте
+2025-06-28T16:37:02.167780+0300 | INFO | Пытаемся паттерн 1: (?:итого|всего|сумма)[\s:]*(\d{1,3}(?:\s\d{3})*[,.]?\d{0,2})\s*(?:₽|руб|р\.?)
+2025-06-28T16:37:02.167989+0300 | INFO | Найдены совпадения: ['1', '10 500,00']
+2025-06-28T16:37:02.168028+0300 | INFO | Преобразована сумма: '1' -> 1.0
+2025-06-28T16:37:02.168060+0300 | INFO | Преобразована сумма: '10 500,00' -> 10500.0
+2025-06-28T16:37:02.168095+0300 | INFO | Итоговая найденная сумма: 10500.0 (из '10 500,00')
+2025-06-28T16:37:02.168178+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:37:02.168239+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:37:02.168274+0300 | INFO | Из OCR извлечены данные: {'sum': 10500.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:37:02.168795+0300 | INFO | OCR извлек сумму: 10500.0
+2025-06-28T16:37:02.169117+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:37:02.169293+0300 | ERROR | Ошибка при обработке чека: Object of type datetime is not JSON serializable
+2025-06-28T16:39:05.330583+0300 | INFO | Завершение работы бота...
+2025-06-28T16:39:05.331985+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:39:05.332061+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T16:39:05.332126+0300 | INFO | Бот завершен
+2025-06-28T16:39:14.248449+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:39:14.250807+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:39:14.389085+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:39:14.392704+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:39:14.392804+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:39:14.436716+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:39:14.436826+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:39:23.643728+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:39:23.740592+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:39:23.740872+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:39:23.740915+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:39:23.745979+0300 | INFO | Создан чек с ID 12
+2025-06-28T16:39:23.746058+0300 | INFO | Загрузка фото в Яндекс.Диск временно отключена (ошибка прав доступа)
+2025-06-28T16:39:23.746123+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:39:23.746158+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:39:23.806703+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:39:23.806860+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:39:23.806920+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:39:23.806970+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:39:23.807167+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:39:24.110350+0300 | INFO | OCR извлеченный текст:
+ЧЕК Чек № 200jz2t40g
+
+23.06.2025 11:09:30(+03:00),
+Режим НО: НПД
+СЧЕТ №19257387 >
+
+ПОНОМАРЕВ
+АЛЕКСЕЙ АЛЕКСЕЕВИЧ
+
+Наименование услуг Сумма
+
+1 Разработка ядра 10 500,00 Р
+телеграм бота
+
+Итого 10 500,00 P
+UHH 614199204300
+Покупатель
+
+ИНН 6678138744
+
+
+2025-06-28T16:39:24.110561+0300 | INFO | Начинаем поиск суммы в тексте
+2025-06-28T16:39:24.110606+0300 | INFO | Пытаемся паттерн 1: (?:итого|всего|сумма)[\s:]*(\d{1,3}(?:\s\d{3})*[,.]?\d{0,2})\s*(?:₽|руб|р\.?)
+2025-06-28T16:39:24.110801+0300 | INFO | Найдены совпадения: ['1']
+2025-06-28T16:39:24.110845+0300 | INFO | Преобразована сумма: '1' -> 1.0
+2025-06-28T16:39:24.110874+0300 | INFO | Итоговая найденная сумма: 1.0 (из '1')
+2025-06-28T16:39:24.110952+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:39:24.111014+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:39:24.111049+0300 | INFO | Из OCR извлечены данные: {'sum': 1.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:39:24.111243+0300 | INFO | OCR извлек сумму: 1.0
+2025-06-28T16:39:24.111531+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:39:24.111648+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено (ошибка прав доступа)
+2025-06-28T16:39:24.115950+0300 | INFO | Чек 12 успешно обработан
+2025-06-28T16:39:30.952879+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:39:31.526050+0300 | INFO | QR код найден при масштабе 2.0: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:39:31.526626+0300 | INFO | Обрабатываем QR код: t=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1...
+2025-06-28T16:39:31.526671+0300 | INFO | Обрабатываем строку параметров фискального чека
+2025-06-28T16:39:31.526714+0300 | INFO | Параметры чека извлечены: {'type': 'fiscal_params', 'datetime': '20250611T1403', 'sum': '1200.00', 'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'n': '1', 'original_data': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:39:31.529975+0300 | INFO | Создан чек с ID 13
+2025-06-28T16:39:31.530031+0300 | INFO | Загрузка фото в Яндекс.Диск временно отключена (ошибка прав доступа)
+2025-06-28T16:39:31.530076+0300 | INFO | Обрабатываем фискальный чек
+2025-06-28T16:39:31.530113+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 't=20250611T1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1'}
+2025-06-28T16:39:31.594053+0300 | INFO | Ответ API proverkacheka.com: {'code': 1, 'first': 0, 'data': {'json': {'code': 3, 'user': 'АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"', 'items': [{'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520378', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rТариф МТС "МТС Больше" Акция Услуга/РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '3400-8490', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 0, 'name': '\rSIM МТС /РФ', 'price': 0, 'quantity': 1, 'paymentType': 4, 'productType': 1, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0602-1859; 970101829505520376', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}, {'nds': 1, 'sum': 120000, 'name': '\rТариф МТС "Для ноутбука мини" Услуга/РФ', 'price': 120000, 'quantity': 1, 'paymentType': 4, 'productType': 4, 'providerInn': '7740000076  ', 'providerData': {'providerName': 'ПАО "МТС"', 'providerPhone': ['+78002500890']}, 'propertiesItem': '0510-4897', 'itemsQuantityMeasure': 0, 'paymentAgentByProductType': 64}], 'nds18': 20000, 'region': '50', 'userInn': '7709356049  ', 'dateTime': '2025-06-11T14:03:00', 'kktRegId': '0000797430049170    ', 'metadata': {'id': 5865983294567390720, 'ofdId': 'ofd7', 'address': '141092,Россия,Московская область,Королёв г.о.,,Королёв г,Юбилейный мкр,Пионерская ул,,д. 12,,,,', 'subtype': 'receipt', 'receiveDate': '2025-06-11T11:04:10Z'}, 'operator': 'Гасанов Аташ Нариман Оглы; 000208028', 'totalSum': 120000, 'creditSum': 0, 'numberKkt': '00106307658591', 'fiscalSign': 3765502953, 'prepaidSum': 0, 'properties': {'propertyName': 'e9d4f144-4698-11f0-84b6-dc4a3e43fd36', 'propertyValue': 'C4800002667'}, 'retailPlace': 'Салон связи "МТС"', 'shiftNumber': 78, 'cashTotalSum': 0, 'provisionSum': 0, 'ecashTotalSum': 120000, 'operationType': 1, 'redefine_mask': 2, 'requestNumber': 6, 'fiscalDriveNumber': '7284440500042964', 'messageFiscalSign': 9.297253254866407e+18, 'retailPlaceAddress': 'Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12', 'appliedTaxationType': 1, 'buyerPhoneOrAddress': '79165757483', 'fiscalDocumentNumber': 1184, 'fiscalDocumentFormatVer': 4}, 'html': '<table class="b-check_table table"><tbody><tr class="b-check_vblock-middle b-check_center"><td colspan="5">АКЦИОНЕРНОЕ ОБЩЕСТВО "РУССКАЯ ТЕЛЕФОННАЯ КОМПАНИЯ"</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Московская область, 141091, г. Kоролев, мкр. Юбилейный, ул. Пионерская, д. 12</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">ИНН 7709356049  </td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">&nbsp;</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">11.06.2025 14:03</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Чек № 6</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Смена № 78</td></tr><tr class="b-check_vblock-middle b-check_center"><td colspan="5">Кассир Гасанов Аташ Нариман Оглы; 000208028</td></tr><tr class="b-check_vblock-last b-check_center"><td colspan="5">Приход</td></tr><tr><td><strong>№</strong></td><td><strong>Название</strong></td><td><strong>Цена</strong></td><td><strong>Кол.</strong></td><td><strong>Сумма</strong></td></tr><tr class="b-check_item"><td>1</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>2</td><td>\rТариф МТС "МТС Больше" Акция Услуга/РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>3</td><td>\rSIM МТС /РФ</td><td>0.00</td><td>1</td><td>0.00</td></tr><tr class="b-check_item"><td>4</td><td>\rТариф МТС "Для ноутбука мини" Услуга/РФ</td><td>1200.00</td><td>1</td><td>1200.00</td></tr><tr class="b-check_vblock-first"><td colspan="3" class="b-check_itogo">ИТОГО:</td><td></td><td class="b-check_itogo">1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Наличные</td><td></td><td>0.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">Карта</td><td></td><td>1200.00</td></tr><tr class="b-check_vblock-middle"><td colspan="3">НДС итога чека со ставкой 20%</td><td></td><td>200.00</td></tr><tr class="b-check_vblock-last"><td colspan="5">ВИД НАЛОГООБЛОЖЕНИЯ: ОСН</td></tr><tr class="b-check_vblock-first"><td colspan="5">РЕГ.НОМЕР ККТ: 0000797430049170    </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ЗАВОД. №: </td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФН: 7284440500042964</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФД: 1184</td></tr><tr class="b-check_vblock-middle"><td colspan="5">ФПД#: 3765502953</td></tr><tr class="b-check_vblock-last"><td colspan="5" class="b-check_center"><img src="/qrcode/generate?text=t%3D20250611T1403%26s%3D1200.00%26fn%3D7284440500042964%26i%3D1184%26fp%3D3765502953%26n%3D1" alt="QR код чека" width="35%" loading="lazy" decoding="async"></td></tr></tbody></table>'}, 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 't=20250611t1403&s=1200.00&fn=7284440500042964&i=1184&fp=3765502953&n=1', 'manual': {'fn': '7284440500042964', 'fd': '1184', 'fp': '3765502953', 'check_time': '20250611t1403', 'type': '1', 'sum': '1200'}}}
+2025-06-28T16:39:31.594460+0300 | INFO | Данные чека успешно получены от API
+2025-06-28T16:39:31.594970+0300 | INFO | Чек обработан: 4 позиций, сумма 1200.0
+2025-06-28T16:39:31.595339+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено (ошибка прав доступа)
+2025-06-28T16:39:31.602709+0300 | INFO | Чек 13 успешно обработан
+2025-06-28T16:46:32.751531+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:46:32.757054+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:46:32.921673+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:46:32.925003+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:46:32.925072+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:46:32.973123+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:46:32.973259+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:46:44.496455+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:46:44.588116+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:46:44.588424+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:46:44.588467+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:46:44.593597+0300 | INFO | Создан чек с ID 14
+2025-06-28T16:46:44.593678+0300 | INFO | Загрузка фото в Яндекс.Диск временно отключена (ошибка прав доступа)
+2025-06-28T16:46:44.593722+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:46:44.593756+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:46:44.653171+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:46:44.653313+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:46:44.653370+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:46:44.653419+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:46:44.653595+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:46:44.947686+0300 | INFO | OCR извлеченный текст:
+ЧЕК Чек № 200jz2t40g
+
+23.06.2025 11:09:30(+03:00),
+Режим НО: НПД
+СЧЕТ №19257387 >
+
+ПОНОМАРЕВ
+АЛЕКСЕЙ АЛЕКСЕЕВИЧ
+
+Наименование услуг Сумма
+
+1 Разработка ядра 10 500,00 Р
+телеграм бота
+
+Итого 10 500,00Р
+UHH 614199204300
+Покупатель
+
+ИНН 6678138744
+
+
+2025-06-28T16:46:44.947905+0300 | INFO | Начинаем поиск суммы в тексте
+2025-06-28T16:46:44.947945+0300 | INFO | Пытаемся паттерн 1: (?:итого|всего|сумма)[\s:]*(\d{1,3}(?:\s\d{3})*[,.]?\d{0,2})\s*(?:₽|руб|р\.?)
+2025-06-28T16:46:44.948138+0300 | INFO | Найдены совпадения: ['1', '10 500,00']
+2025-06-28T16:46:44.948177+0300 | INFO | Преобразована сумма: '1' -> 1.0
+2025-06-28T16:46:44.948210+0300 | INFO | Преобразована сумма: '10 500,00' -> 10500.0
+2025-06-28T16:46:44.948240+0300 | INFO | Итоговая найденная сумма: 10500.0 (из '10 500,00')
+2025-06-28T16:46:44.948321+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:46:44.948381+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:46:44.948414+0300 | INFO | Из OCR извлечены данные: {'sum': 10500.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:46:44.948621+0300 | INFO | OCR извлек сумму: 10500.0
+2025-06-28T16:46:44.948870+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:46:44.949007+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено (ошибка прав доступа)
+2025-06-28T16:46:44.953666+0300 | INFO | Чек 14 успешно обработан
+2025-06-28T16:49:11.106064+0300 | INFO | Запуск бота в режиме polling...
+2025-06-28T16:49:11.111176+0300 | INFO | Таблицы базы данных созданы/обновлены
+2025-06-28T16:49:11.243077+0300 | INFO | Webhook удален, переключились на polling
+2025-06-28T16:49:11.246328+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:49:11.246423+0300 | INFO | Планировщик отчетов запущен
+2025-06-28T16:49:11.286895+0300 | INFO | Бот запущен: @Check_scaner_bot (ScanBot)
+2025-06-28T16:49:11.287028+0300 | INFO | Бот готов к работе! Отправьте ему /start
+2025-06-28T16:49:43.437971+0300 | INFO | Начинаем обработку чека для пользователя EchoTech_Corp
+2025-06-28T16:49:43.545418+0300 | INFO | QR код распознан: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:49:43.545669+0300 | INFO | Обрабатываем QR код: https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print...
+2025-06-28T16:49:43.545715+0300 | INFO | Обнаружен чек самозанятого (lknpd.nalog.ru)
+2025-06-28T16:49:43.551205+0300 | INFO | Создан чек с ID 15
+2025-06-28T16:49:43.551286+0300 | INFO | Загрузка фото в Яндекс.Диск временно отключена (ошибка прав доступа)
+2025-06-28T16:49:43.551354+0300 | INFO | Обрабатываем чек самозанятого
+2025-06-28T16:49:43.551392+0300 | INFO | Запрос к API proverkacheka.com с параметрами: {'token': '34246.s7G9FmCXMdJWmHaSZ', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print'}
+2025-06-28T16:49:43.643894+0300 | INFO | Ответ API proverkacheka.com: {'code': 3, 'data': 'Превышено количество обращений по чеку.', 'request': {'qrurl': '', 'qrfile': '', 'qrraw': 'https://lknpd.nalog.ru/api/v1/receipt/614199204300/200jz2t40g/print', 'manual': {'fn': '', 'fd': '', 'fp': '', 'check_time': '', 'type': 1, 'sum': '0'}}}
+2025-06-28T16:49:43.644061+0300 | ERROR | Ошибка API: код 3, сообщение: Превышено количество обращений по чеку.
+2025-06-28T16:49:43.644119+0300 | WARNING | API proverkacheka.com может не поддерживать чеки самозанятых
+2025-06-28T16:49:43.644182+0300 | INFO | Извлекли из URL чека самозанятого: ИНН=614199204300, ID=200jz2t40g
+2025-06-28T16:49:43.644396+0300 | INFO | Пытаемся извлечь сумму из изображения чека самозанятого
+2025-06-28T16:49:43.950377+0300 | INFO | OCR извлеченный текст:
+ЧЕК Чек № 200jz2t40g
+
+23.06.2025 11:09:30(+03:00),
+Режим НО: НПД
+СЧЕТ №19257387 >
+
+ПОНОМАРЕВ
+АЛЕКСЕЙ АЛЕКСЕЕВИЧ
+
+Наименование услуг Сумма
+
+1 Разработка ядра 10 500,00 P
+Tenerpam бота
+
+Итого 10 500,00Р
+UHH 614199204300
+Покупатель
+
+ИНН 6678138744
+
+
+2025-06-28T16:49:43.950633+0300 | INFO | Начинаем поиск суммы в тексте
+2025-06-28T16:49:43.950676+0300 | INFO | Пытаемся паттерн 1: (?:итого|всего|сумма)[\s:]*(\d{1,3}(?:\s\d{3})*[,.]?\d{0,2})\s*(?:₽|руб|р\.?)
+2025-06-28T16:49:43.950885+0300 | INFO | Найдены совпадения: ['1', '10 500,00']
+2025-06-28T16:49:43.950928+0300 | INFO | Преобразована сумма: '1' -> 1.0
+2025-06-28T16:49:43.950960+0300 | INFO | Преобразована сумма: '10 500,00' -> 10500.0
+2025-06-28T16:49:43.950990+0300 | INFO | Итоговая найденная сумма: 10500.0 (из '10 500,00')
+2025-06-28T16:49:43.951078+0300 | INFO | Найдена дата: 23.06.2025
+2025-06-28T16:49:43.951140+0300 | INFO | Найдено время: 11:09
+2025-06-28T16:49:43.951172+0300 | INFO | Из OCR извлечены данные: {'sum': 10500.0, 'date': '23.06.2025', 'time': '11:09'}
+2025-06-28T16:49:43.951671+0300 | INFO | OCR извлек сумму: 10500.0
+2025-06-28T16:49:43.952003+0300 | INFO | OCR извлек дату: 2025-06-23 11:09:00
+2025-06-28T16:49:43.952126+0300 | INFO | Сохранение JSON в Яндекс.Диск временно отключено (ошибка прав доступа)
+2025-06-28T16:49:43.956542+0300 | INFO | Чек 15 успешно обработан
+2025-06-28T18:38:46.492816+0300 | INFO | Завершение работы бота...
+2025-06-28T18:38:46.493866+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T18:38:46.493967+0300 | INFO | Планировщик отчетов остановлен
+2025-06-28T18:38:46.494049+0300 | INFO | Бот завершен
