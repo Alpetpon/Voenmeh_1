@@ -49,7 +49,7 @@ logs/
 .env
 config.env
 
-# Credentials
+# Credentials and secrets
 credentials/
 *.json
 

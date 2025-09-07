@@ -10,7 +10,8 @@ from datetime import datetime
 from loguru import logger
 
 # Добавляем путь к модулям
-sys.path.append(os.path.dirname(os.path.abspath(__file__)))
+project_root = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+sys.path.append(project_root)
 
 from sync_service.clients.mysql_client import MySQLClient
 from sync_service.clients.sheets_client import GoogleSheetsClient
